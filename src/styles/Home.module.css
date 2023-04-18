@@ -1,0 +1,29 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem;
+    min-height: 100vh;
+}
+
+.box {
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    background-color: #888;
+}
+
+.form {
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form input {
+    border: 1px solid black;
+}
